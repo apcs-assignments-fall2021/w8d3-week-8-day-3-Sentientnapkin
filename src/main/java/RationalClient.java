@@ -13,5 +13,7 @@ public class RationalClient {
         // System.out.println(s);
         // Rational t = Rational.add(r, s);
         // System.out.println(t);
+        Rational w = new Rational(3,4);
+        System.out.println(w.calculateDecimalValue()); // 0.75
     }
 }
